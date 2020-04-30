@@ -3,6 +3,7 @@ from fastNLP import GradientClipCallback, WarmupCallback, EvaluateCallback
 from fastNLP import Trainer, RandomSampler, SpanFPreRecMetric
 from modules.pipe import CNNERPipe
 
+from modules.callbacks import EvaluateCallback
 from models.MyNER import MyNER
 from torch import optim
 import argparse
